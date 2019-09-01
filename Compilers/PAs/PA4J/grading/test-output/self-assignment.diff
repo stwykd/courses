@@ -1,0 +1,12 @@
+1,2c1,8
+< filename:line
+< Compilation halted due to static semantic errors.
+---
+> java.lang.NullPointerException
+> 	at ClassTable.isSubtypeOf(ClassTable.java:413)
+> 	at attr.semant(cool-tree.java:894)
+> 	at Features.semant(cool-tree.java:148)
+> 	at class_c.semant(cool-tree.java:643)
+> 	at Classes.semant(cool-tree.java:63)
+> 	at programc.semant(cool-tree.java:491)
+> 	at Semant.main(Semant.java:36)
